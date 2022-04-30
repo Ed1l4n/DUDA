@@ -162,7 +162,7 @@ body {
   top: 120px;
   display: none;
   flex-direction: column;
-  justify-content: left;
+  justify-content: space-around;
   align-items: center;
   width: 160px;
   height: 700px;

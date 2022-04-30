@@ -39,4 +39,5 @@ function abrirPanel(x) {
 function alternarPaneles() {
     document.getElementById("barra-lateral").style.display = "flex";
     document.getElementById("container-pags-selec-id").style.display = "none";
+    document.getElementById("secundaria").style = "background-image: url(../img/bg5.png)"
 }
