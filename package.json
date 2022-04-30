@@ -1,8 +1,11 @@
-"scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "heroku-postbuild": "npm run build"
+{
+    "name": "duda-web",
+    "description": "duda web",
+    "version": "0.0.1",
+    "dependencies": {
+      "express": "3.4.0"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    }
   }
