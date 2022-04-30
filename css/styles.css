@@ -133,7 +133,7 @@ body {
   height: 185px;*/
   margin-top: -1px;
   margin-left: -1px;
-  transform: scale(1.01);
+  transform: scale(1.05);
 }
 .pag-selec:hover .imagenes-pag {
   width: 405px;
