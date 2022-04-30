@@ -4,9 +4,12 @@
 #secundaria {
   background-image: url(../img/bckground3.png);
 }
+#htweb {
+  background-image: url(../img/bg5.png);
+}
 body {
   width: 98%;
-  height: 800px;
+  height: 830px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -123,12 +126,14 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  transition: transform .1s ease-in-out;
 }
 .pag-selec:hover {
-  width: 705px;
-  height: 185px;
+  /*width: 705px;
+  height: 185px;*/
   margin-top: -1px;
   margin-left: -1px;
+  transform: scale(1.01);
 }
 .pag-selec:hover .imagenes-pag {
   width: 405px;
@@ -157,16 +162,42 @@ body {
 }
 
 #barra-lateral {
-  position: absolute;
-  left: -20px;
-  top: 120px;
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   width: 160px;
-  height: 700px;
+  height: 600px;
+  margin-left: -80px;
   border: 5px solid black;
   border-radius: 15px;
   background-color: rgb(141, 141, 141);
+}
+#lateral {
+  left: 0px;
+  width: 200px;
+  height: 1100px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-interior-selectores-lat {
+  width: 190px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(141,141,141);
+  border: 5px solid black;
+  border-radius: 15px;
+  transition: transform .1s ease-in-out;
+}
+.container-interior-selectores-lat:hover {
+  transform: translateX(20px);
+}
+.imagen-selectores-lat {
+  width: 90px;
 }

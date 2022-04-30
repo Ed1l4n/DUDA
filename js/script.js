@@ -28,16 +28,10 @@ function fotosintesis() {
 
 function abrirPanel(x) {
     if(x.id == "pag-mods") {
-        alternarPaneles();
+        window.open("web.htm?menu=mods");
     } else if(x.id == "pag-eventos") {
-        alternarPaneles();
+        window.open("web.htm?menu=eventos");
     } else if(x.id == "pag-normas") {
-        alternarPaneles();
+        window.open("web.htm?menu=normas");
     }
-}
-
-function alternarPaneles() {
-    document.getElementById("barra-lateral").style.display = "flex";
-    document.getElementById("container-pags-selec-id").style.display = "none";
-    document.getElementById("secundaria").style = "background-image: url(../img/bg5.png)"
 }
