@@ -16,5 +16,5 @@ function volverweb() {
 }
 
 function fotosintesis() {
-    window.location.replace("https://www.youtube.com/watch?v=xJxr1piIfSU");
+    window.open("https://www.youtube.com/watch?v=xJxr1piIfSU");
 }
