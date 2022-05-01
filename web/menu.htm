@@ -9,7 +9,11 @@
         <script src="../js/script.js"></script>
         <title>DUDA T4</title>
     </head>
-    <body>
+    <body onload="loaduser()">
+        <div class="container-usuario" id="menu-usuario">
+            <img id="foto_usuario">
+            <div class="nombre-usuario" id="user-name">&nbsp;</div>
+        </div>
         <div class="container-pags-selec" id="container-pags-selec-id">
             <div class="container-interior-pag-selec">
                 <div onclick="abrirPanel(this)" class="pag-selec" id="pag-mods"><img class="imagenes-pag" src="../img/MODStext.png"></div>
