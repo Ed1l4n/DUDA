@@ -222,7 +222,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
   background-color: rgb(141,141,141);
   border: 5px solid black;
   border-radius: 15px;
@@ -231,6 +231,9 @@ body {
 .container-interior-selectores-lat:hover {
   transform: translateX(20px);
 }
+.container-interior-selectores-lat > div {
+  margin-right: 30px;
+}
 .imagen-selectores-lat {
-  width: 90px;
+  width: 100px;
 }
