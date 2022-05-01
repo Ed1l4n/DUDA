@@ -8,8 +8,13 @@ function abrirweb(x) {
         window.location.replace("https://www.youtube.com/watch?v=xvFZjo5PgG0")
     } else {
         setTimeout(function() {
-            window.location.replace("web/menu.htm");
+            if(compareuser != "") {
+                window.location.replace("web/menu.htm");
+            } else {
+                document.getElementById("alertamsg").style.animation = "alertafade 1s linear";
+            }
         }, delayMilis);
+        document.getElementById("alertamsg").style = "animation:none;"
     }
     
 }
