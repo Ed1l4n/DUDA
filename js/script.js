@@ -8,7 +8,7 @@ function abrirweb(x) {
         window.location.replace("https://www.youtube.com/watch?v=xvFZjo5PgG0")
     } else {
         setTimeout(function() {
-            window.location.replace("web/menu.htm");
+            window.location.replace("web/dudaweb.htm");
         }, delayMilis);
     }
     
