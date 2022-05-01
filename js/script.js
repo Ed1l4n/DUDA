@@ -28,10 +28,10 @@ function fotosintesis() {
 
 function abrirPanel(x) {
     if(x.id == "pag-mods") {
-        window.open("web.htm?menu=mods");
+        window.open("dudaweb.htm?menu=mods");
     } else if(x.id == "pag-eventos") {
-        window.open("web.htm?menu=eventos");
+        window.open("dudaweb.htm?menu=eventos");
     } else if(x.id == "pag-normas") {
-        window.open("web.htm?menu=normas");
+        window.open("dudaweb.htm?menu=normas");
     }
 }
