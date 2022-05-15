@@ -19,6 +19,8 @@ function loaduser() {
         imagen_perfil.src = "../img/skins/cara_alejandro.png"
     } else if(usuario == "AADRI_15") {
         imagen_perfil.src = "../img/skins/cara_adrian.png"
+    } else if(usuario == "ALSIKO64") {
+        imagen_perfil.src = "../img/skins/cara_alsiko.png"
     }
 }
 
@@ -55,7 +57,12 @@ function abrirweb(x) {
         setTimeout(function() {
             window.location.replace("web/menu.htm?usuario=" + compareuser);
         }, delayMilis);
-    } else {
+    } else if(compareuser == "ALSIKO64") {
+        setTimeout(function() {
+            window.location.replace("web/menu.htm?usuario=" + compareuser);
+        }, delayMilis);
+    }
+     else {
         setTimeout(function() {
             document.getElementById("alertamsg").style.animation = "alertafade 1s linear";
         }, delayMilis);
